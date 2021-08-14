@@ -19,7 +19,7 @@ function tempIsGood(GPU)
         console.log(temp)
         if(temp > config.TempLimit)
         {
-            console.log("Temp too high! Send SMS.")
+            console.log("Temp too high! Sending SMS.")
             if(smsSended == 1)
             {
                 console.log("SMS already sent!")
